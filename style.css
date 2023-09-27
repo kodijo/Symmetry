@@ -321,6 +321,10 @@ a:hover {
 	padding: 3px 1.5em 10px 1.3em;
 	position: absolute;
 }
+.hidesidebar {
+	width:0px;
+	padding: 0px 0px 0px 0px;
+}
 .sidebar h3 {
 	font-size: 0.75em;
 	color: #4d4d4d;
