@@ -313,7 +313,7 @@ a:hover {
 	text-decoration: underline;
 }
 .wrapAll {
-	width: 100%.
+	width: 100%;
 }
 .sidebarshow {
 	float: left;
@@ -506,13 +506,11 @@ span.user {
 	display: inline-block;
 	margin-right: 8px;
 }
-.contentsPanel ul li {
-}
+
 .contentsPanel ul {
 	padding: 0 0 5px 5px;
 }
-.contentsPanel ul li ul{
-}
+
 .contentsPanel ul li ul li {
 	padding: 0 0 0 25px;
 }
