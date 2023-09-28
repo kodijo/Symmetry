@@ -601,15 +601,22 @@ span.user {
 }
 @media screen and (max-width: 550px) {
 	.sidebar {
-			width: 6em;
-			padding: 3px 0.5em 10px 0.5em;
+			display:none;
+			padding: 0 0 0 0;
 	}
 	.mainsectionshow {
 			margin: 0 0 0 7em;
 	}
+	.mainsection {
+		margin: 0 0 0 0;
+}
 	.contentsPanel {
 			width: auto;
 	}
+	.sidebarshow {
+		width: 6em;
+		padding: 3px 0.5em 10px 0.5em;
+}
 }
 @media screen and (max-width: 400px) {
 	#simpleSearch {
