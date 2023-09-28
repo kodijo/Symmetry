@@ -25,7 +25,7 @@
 
 $(document).ready(function(){
     $(".contentsPanel").each(function() {                
-            $(this).prepend('<div class="showPanel">[show]</div><div class="hidePanel">[hide]</div>');
+            $(this).prepend('<div class="showPanel">[show]</div><div class="hidePanel">[toggle]</div>');
     });
     
     
