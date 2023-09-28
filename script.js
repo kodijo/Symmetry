@@ -31,12 +31,18 @@ $(document).ready(function(){
     
 $(".hidePanel").click(function(){
             $( this ).siblings('ul').hide( 150, function() { 
-                    $sidebar.toggleClass("hidesidebar");
+                    $sidebar.toggleClass("sidebar");
+                    $sidebar.toggleClass("sidebarshow");
+                    $mainsection.toggleClass("mainsection");
+                    $mainsection.toggleClass("mainsectionshow");
             });
 });
 $(".showPanel").click(function(){
             $( this ).siblings('ul').show( 150, function() { 
-                    $sidebar.toggleClass("sidebar");
+                $sidebar.toggleClass("sidebar");
+                $sidebar.toggleClass("sidebarshow");
+                $mainsection.toggleClass("mainsection");
+                $mainsection.toggleClass("mainsectionshow");
             });
 });
     

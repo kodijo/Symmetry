@@ -315,15 +315,15 @@ a:hover {
 .wrapAll {
 	width: 100%.
 }
-.sidebar {
+.sidebarshow {
 	float: left;
 	width: 9em;
 	padding: 3px 1.5em 10px 1.3em;
 	position: absolute;
 }
-.hidesidebar {
-	width:0px;
-	padding: 0px 0px 0px 0px;
+.sidebar {
+	display:none;
+	padding: 0 0 0 0;
 }
 .sidebar h3 {
 	font-size: 0.75em;
@@ -371,6 +371,9 @@ div.articleRightInner {
 	padding: 0.15em 0 0 0.45em;
 }
 .mainsection {
+	margin: 0 0 0 0;
+}
+.mainsectionshow{
 	margin: 0 0 0 11em;
 }
 .headerLinks {
@@ -600,14 +603,14 @@ span.user {
 }
 @media screen and (max-width: 550px) {
 	.sidebar {
-		width: 6em;
-		padding: 3px 0.5em 10px 0.5em;
+			width: 6em;
+			padding: 3px 0.5em 10px 0.5em;
 	}
-	.mainsection {
-		margin: 0 0 0 7em;
+	.mainsectionshow {
+			margin: 0 0 0 7em;
 	}
 	.contentsPanel {
-		width: auto;
+			width: auto;
 	}
 }
 @media screen and (max-width: 400px) {
